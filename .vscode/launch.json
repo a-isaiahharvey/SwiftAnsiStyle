@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Debug AnsiStyleExample",
+            "program": "${workspaceFolder:SwiftAnsiStyle}/.build/debug/AnsiStyleExample",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftAnsiStyle}",
+            "preLaunchTask": "swift: Build Debug AnsiStyleExample"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Release AnsiStyleExample",
+            "program": "${workspaceFolder:SwiftAnsiStyle}/.build/release/AnsiStyleExample",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftAnsiStyle}",
+            "preLaunchTask": "swift: Build Release AnsiStyleExample"
+        }
+    ]
+}
