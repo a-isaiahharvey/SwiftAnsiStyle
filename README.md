@@ -20,7 +20,7 @@ You can integrate AnsiStyle into your project using Swift Package Manager (SPM).
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/a-isaiahharvey/swift-ansi-style.git", branch: "main")
+    .package(url: "https://github.com/martial-plains/swift-ansi-style.git", branch: "main")
 ]
 ```
 
