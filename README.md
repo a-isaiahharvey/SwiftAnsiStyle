@@ -26,7 +26,7 @@ dependencies: [
 
 ## Usage
 
-1. Import the TerminalStyler module in your Swift file:
+1. Import the AnsiStyle module in your Swift file:
 
 ```swift
 import AnsiStyle
